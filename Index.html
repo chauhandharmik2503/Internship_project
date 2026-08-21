@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>freshbite</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+       
+        <img src="restaurant-logo.png">
+          <h1 >freshbite</h1><br>
+            <h3 ><i>online food ordering site</i></h3><br> 
+         <nav>
+            <button><a href="#home">home page</a></button>
+            <button> <a href="#menu">menu page</a></button>
+            <button> <a href="#cart">cart</a></button>
+            <button> <a href="#user">user</a></button>
+            <button> <a href="#about_us">about us</a></button>
+            <button><a href="#contect_us">contect us</a></button>
+        </nav>
+       
+        <hr>
+    </header>
+    
+    <main>
+        <div class="page" id="home">
+            <h2>home</h2>
+              <img id="welcome" src="logo.png"  ><br>
+        </div>
+        <div  id="menu">
+            <h2>menu</h2>
+            <div id="filter">
+                filter<br>
+                <button onclick="filter('all')">all</button>
+                <button onclick="filter('hot_and_fresh')">hot and fresh</button>
+                <button onclick="filter('dessert')">dessert</button>
+                <button onclick="filter('drinks')">drinks</button>
+            </div>
+            <script>
+                function filter(category)
+                {
+                    var items=document.getElementsByClassName("food-item");
+                    for(var i=0;i<items.length;i++)
+                {
+                    if(category==="all" || items[i].classList.contains(category))
+                    {
+                        items[i].style.display="block";
+                    }
+                    else{
+                        items[i].style.display="none";
+                    }
+                }
+                }
+            </script>
+            <br>
+            <hr>
+            <div class="hot_and_fresh food-item">
+              <img class="menu" src="pavbhaji.webp" >
+                <p>pavbhaji<br>
+                price=99rs<br>
+                fastfood<br>
+                <button onclick="addtocart('pavbhaji',99)">add to cart</button>
+            
+        </div><br>
+        <div class="dessert food-item">
+             <img class="menu" src="gulab jamun.png" >
+            <p>gulab jamun<br>
+                price=47rs<br>
+                dessert<br>
+                <button onclick="addtocart('gulabjamun',47)">add to cart</button>
+        </div><br>
+             <div class="drinks food-item">
+             <img class="menu" src="coffee.png" >
+            <p>coffee<br>
+                price=35rs<br>
+                drinks<br>
+                <button onclick="addtocart('coffee',35)">add to cart</button>
+        </div><br>
+            <div class="hot_and_fresh food-item">
+                  <img class="menu" src="dosa.webp">
+            <p>dosa<br>
+                price=49rs<br>
+                fastfood<br>
+                <button onclick="addtocart('dosa',49)">add to cart</button>
+            </div>
+          <br>
+          <div class="dessert food-item">
+             <img class="menu" src="jalebi.webp" >
+            <p>
+                jalebi<br>
+                price=62rs<br>
+                dessert<br>
+                <button  onclick="addtocart('jalebi',62)">add to cart</button>
+            </p>
+          </div>
+           <br>
+           <div class="drinks food-item">
+             <img class="menu" src="tea.png" >
+            <p>tea<br>
+                price=25rs<br>
+                drinks<br>
+                <button  onclick="addtocart('tea',25)">add to cart</button>
+        </div><br>
+            <div class="hot_and_fresh food-item">
+                 <img class="menu" src="samosa.webp" >
+            <p>
+                samosa<br>
+                price=37rs<br>
+                fastfood<br>
+                <button onclick="addtocart('samosa',37)">add to cart</button>
+            </p>
+            </div>
+           <br>
+        </div>
+
+        <div class="page" id="cart"><h2>cart</h2>
+            order details
+            <script>
+                var cart=[];
+                function addtocart(itemname,price)
+                {
+                    cart.push({name:itemname,price:price});
+                    displaycart();
+                    alert(itemname+"added to cart,price:"+price+"rs");
+                }
+                function displaycart()
+                {
+                    var output="";
+                    var total=0;
+                    for(var i=0;i<cart.length;i++)
+                {
+                    output+=(i+1)+"."+cart[i].name+"-"+ cart[i].price+"rs<br>";
+                    total+=cart[i].price;            
+                }
+                output+="total:"+total+"rs";
+                document.getElementById("order-detail").innerHTML=output;
+                }
+
+
+            </script>
+        <p id="order-detail"></p>
+        <button onclick="payment()">conferm order</button>
+        <script>
+            function payment()
+            {
+                alert("payment gateway under mainentence,order failed");
+            }
+
+        </script>
+        </div>
+        <div class="page" id="user"><h2>user</h2>
+            order histry
+            <script>
+
+            </script>
+        <p id="order-histry"></p>
+        
+        </div>
+        <div class="page" id="about_us"><h2>about us</h2>
+            <h3>fresh bites</h3>
+            <p>online platform where you can find best test with fresh food</p>
+        
+        </div>
+        <div class="page" id="contect_us"><h2>contect us</h2>
+        <button id="instagram"><img src="insta.png"><br>@freshbite_007</button>
+        <button id="facebook"><img src="facebook.png"><br>freshbite@47</button>
+        <button id="google"><img src="google.png"><br>freshbite.com</button>
+        <button id="gmail"><img src="gmail.png"><br>freshbite@gmail.com</button>
+    </div>
+        
+    </main>
+    <hr>
+    <footer>
+        <h2>"good food is the foundetion of genuine happiness"-auguste escoffier</h2>
+    </footer>
+</body>
+</html>
