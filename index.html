@@ -3,107 +3,177 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>freshbite</title>
+
+    <title>FreshBite</title>
+
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <header>
-       
-        <img src="restaurant-logo.png">
-          <h1 >freshbite</h1><br>
-            <h3 ><i>online food ordering site</i></h3><br> 
-         <nav>
-            <button><a href="#home">home page</a></button>
-            <button> <a href="#menu">menu page</a></button>
-            <button> <a href="#cart">cart</a></button>
-            <button> <a href="#user">user</a></button>
-            <button> <a href="#about_us">about us</a></button>
-            <button><a href="#contect_us">contect us</a></button>
-        </nav>
-       
-        <hr>
-    </header>
-    
-    <main>
-        <div class="page" id="home">
-            <h2>home</h2>
-              <img id="welcome" src="logo.png"  ><br>
+
+<header>
+
+    <img src="restaurant-logo.png">
+
+    <h1>FreshBite</h1>
+
+    <h3><i>Online Food Ordering Site</i></h3>
+
+    <nav>
+        <button><a href="#home">Home Page</a></button>
+        <button><a href="#menu">Menu Page</a></button>
+        <button><a href="#cart">Cart</a></button>
+        <button><a href="#user">User</a></button>
+        <button><a href="#about_us">About Us</a></button>
+        <button><a href="#contect_us">Contact Us</a></button>
+    </nav>
+
+    <hr>
+
+</header>
+
+
+<main>
+
+    <!-- HOME -->
+    <div class="page" id="home">
+
+        <h2>Home</h2>
+
+        <img id="welcome" src="logo.png">
+
+    </div>
+
+
+    <!-- MENU -->
+    <div class="page" id="menu">
+
+        <h2>Menu</h2>
+
+        <div id="filter">
+
+            Filter<br>
+
+            <button onclick="filter('all')">All</button>
+
+            <button onclick="filter('hot_and_fresh')">
+                Hot and Fresh
+            </button>
+
+            <button onclick="filter('dessert')">
+                Dessert
+            </button>
+
+            <button onclick="filter('drinks')">
+                Drinks
+            </button>
+
         </div>
-        <div  id="menu">
-            <h2>menu</h2>
-            <div id="filter">
-                filter<br>
-                <button onclick="filter('all')">all</button>
-                <button onclick="filter('hot_and_fresh')">hot and fresh</button>
-                <button onclick="filter('dessert')">dessert</button>
-                <button onclick="filter('drinks')">drinks</button>
-            </div>
-            <script>
-                function filter(category)
-                {
-                    var items=document.getElementsByClassName("food-item");
-                    for(var i=0;i<items.length;i++)
-                {
-                    if(category==="all" || items[i].classList.contains(category))
-                    {
-                        items[i].style.display="block";
-                    }
-                    else{
-                        items[i].style.display="none";
-                    }
-                }
-                }
-            </script>
+
+        <br>
+
+        <hr>
+
+        <!-- JavaScript will create food items here -->
+        <div id="menu-items"></div>
+
+    </div>
+
+
+    <!-- CART -->
+    <div class="page" id="cart">
+
+        <h2>Cart</h2>
+
+        <p>Order Details</p>
+
+        <p id="order-detail"></p>
+
+        <button onclick="payment()">
+            Confirm Order
+        </button>
+
+    </div>
+
+
+    <!-- USER -->
+    <div class="page" id="user">
+
+        <h2>User</h2>
+
+        <p>Order History</p>
+
+        <p id="order-history"></p>
+
+    </div>
+
+
+    <!-- ABOUT US -->
+    <div class="page" id="about_us">
+
+        <h2>About Us</h2>
+
+        <h3>FreshBite</h3>
+
+        <p>
+            Online platform where you can find
+            best taste with fresh food.
+        </p>
+
+    </div>
+
+
+    <!-- CONTACT US -->
+    <div class="page" id="contect_us">
+
+        <h2>Contact Us</h2>
+
+        <button id="instagram">
+            <img src="insta.png">
             <br>
-            <hr>
-            <div class="hot_and_fresh food-item">
-              <img class="menu" src="pavbhaji.webp" >
-                <p>pavbhaji<br>
-                price=99rs<br>
-                fastfood<br>
-                <button onclick="addtocart('pavbhaji',99)">add to cart</button>
-            
-        </div><br>
-        <div class="dessert food-item">
-             <img class="menu" src="gulab jamun.png" >
-            <p>gulab jamun<br>
-                price=47rs<br>
-                dessert<br>
-                <button onclick="addtocart('gulabjamun',47)">add to cart</button>
-        </div><br>
-             <div class="drinks food-item">
-             <img class="menu" src="coffee.png" >
-            <p>coffee<br>
-                price=35rs<br>
-                drinks<br>
-                <button onclick="addtocart('coffee',35)">add to cart</button>
-        </div><br>
-            <div class="hot_and_fresh food-item">
-                  <img class="menu" src="dosa.webp">
-            <p>dosa<br>
-                price=49rs<br>
-                fastfood<br>
-                <button onclick="addtocart('dosa',49)">add to cart</button>
-            </div>
-          <br>
-          <div class="dessert food-item">
-             <img class="menu" src="jalebi.webp" >
-            <p>
-                jalebi<br>
-                price=62rs<br>
-                dessert<br>
-                <button  onclick="addtocart('jalebi',62)">add to cart</button>
-            </p>
-          </div>
-           <br>
-           <div class="drinks food-item">
-             <img class="menu" src="tea.png" >
-            <p>tea<br>
-                price=25rs<br>
-                drinks<br>
-                <button  onclick="addtocart('tea',25)">add to cart</button>
-        </div><br>
-            <div class="hot_and_fresh food-item">
+            @freshbite_007
+        </button>
+
+        <button id="facebook">
+            <img src="facebook.png">
+            <br>
+            freshbite@47
+        </button>
+
+        <button id="google">
+            <img src="google.png">
+            <br>
+            freshbite.com
+        </button>
+
+        <button id="gmail">
+            <img src="gmail.png">
+            <br>
+            freshbite@gmail.com
+        </button>
+
+    </div>
+
+</main>
+
+
+<hr>
+
+<footer>
+
+    <h2>
+        "Good food is the foundation of genuine happiness"
+        - Auguste Escoffier
+    </h2>
+
+</footer>
+
+
+<!-- JavaScript file -->
+<script src="script.js"></script>
+
+</body>
+</html>            <div class="hot_and_fresh food-item">
                  <img class="menu" src="samosa.webp" >
             <p>
                 samosa<br>
