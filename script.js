@@ -153,7 +153,7 @@ function filter(category) {
             items[i].classList.contains(category)
         ) {
 
-            items[i].style.display = "block";
+            items[i].style.display = "flex";
 
         }
 
