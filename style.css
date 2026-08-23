@@ -1,104 +1,152 @@
-html{
-    scroll-padding-top: 35vh;
-}
-body 
+html
 {
-    background-color: rgb(117, 232, 232);
-    align-content: center;
-    margin: 0px;
-}
-nav
-{
-    border: 1px dashed;
-    border-color:darkgoldenrod;
-   
-
-}
-.page
-{
-    height:65vh;
-    width:100vw;
-}
-#home
-{
-     
-    
-   
-    background-color: rgb(236, 236, 159);
-}
-#welcome
-{
-    height:50vh;
-    align-content: center;
-}
-#menu
-{
-    
-    background-color: rgb(187, 245, 129);
-}
-#user
-{
-     
-     background-color: rgb(144, 201, 245);
-}
-#cart
-{
-    
-     background-color: rgb(236, 186, 239);
-}
-#about_us
-{
-      
-     background-color: rgb(246, 122, 122);
-}
-#contect_us
-{
-      
-     background-color: rgb(125, 226, 194);
+    scroll-padding-top:35vh;
 }
 
-#logo
+body
 {
-    background-color: lightcyan;
-    height: 100%;
+    background-color:rgb(117, 232, 232);
+    align-content:center;
+    margin:0px;
 }
-img{
-    height:100px;
-}
-.menu
+
+
+/* HEADER */
+
+header
 {
-    height: 120px;
-}
-.food-item
-{
-    display:flex;
+    position:fixed;
+    top:0%;
+    height:35vh;
+    width:100%;
+    background-color:rgb(117, 232, 232);
+    z-index:1000;
 }
 
 header *
 {
     margin:0;
-    padding: 0;
-}
-header
-{
-position: fixed;
-top:0%;
-height:35vh;
-width:100%;
-background-color: rgb(117, 232, 232);
+    padding:0;
 }
 
-main{
-    margin-top: 35vh;
-    height:65vh;
-    weight:100%;
-    margin-bottom: 15vh;
+
+/* NAVIGATION */
+
+nav
+{
+    border:1px dashed darkgoldenrod;
 }
+
+nav button
+{
+    margin:5px;
+    padding:5px 10px;
+}
+
+nav a
+{
+    text-decoration:none;
+}
+
+
+/* MAIN */
+
+main
+{
+    margin-top:35vh;
+    width:100%;
+    min-height:65vh;
+    margin-bottom:15vh;
+}
+
+
+/* PAGES */
+
+.page
+{
+    min-height:65vh;
+    width:100%;
+    box-sizing:border-box;
+}
+
+
+/* HOME */
+
+#home
+{
+    background-color:rgb(236, 236, 159);
+}
+
+#welcome
+{
+    height:50vh;
+}
+
+
+/* MENU */
+
+#menu
+{
+    background-color:rgb(187, 245, 129);
+}
+
+
+/* FOOD ITEMS */
+
+.food-item
+{
+    display:flex;
+    align-items:center;
+    gap:20px;
+    margin:15px;
+}
+
+.menu
+{
+    height:120px;
+    width:120px;
+    object-fit:cover;
+}
+
+
+/* OTHER PAGES */
+
+#user
+{
+    background-color:rgb(144, 201, 245);
+}
+
+#cart
+{
+    background-color:rgb(236, 186, 239);
+}
+
+#about_us
+{
+    background-color:rgb(246, 122, 122);
+}
+
+#contect_us
+{
+    background-color:rgb(125, 226, 194);
+}
+
+
+/* IMAGES */
+
+img
+{
+    max-height:100px;
+}
+
+
+/* FOOTER */
+
 footer
 {
-position:fixed;
-bottom:0%;
-width:100%;
-height:15vh;
-background-color: rgb(117, 232, 232);
+    position:fixed;
+    bottom:0%;
+    width:100%;
+    height:15vh;
+    background-color:rgb(117, 232, 232);
 }
