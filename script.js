@@ -141,26 +141,20 @@ displayMenu();
 // FILTER FUNCTION
 // ==========================================
 
-function filter(category) {
+function filter(category)
+{
+    var items = document.getElementsByClassName("food-item");
 
-    var items =
-        document.getElementsByClassName("food-item");
-
-    for (var i = 0; i < items.length; i++) {
-
-        if (
-            category === "all" ||
-            items[i].classList.contains(category)
-        ) {
-
-            items[i].style.display = "flex";
-
+    for (var i = 0; i < items.length; i++)
+    {
+        if (category === "all" ||
+            items[i].classList.contains(category))
+        {
+            items[i].style.display = "";
         }
-
-        else {
-
+        else
+        {
             items[i].style.display = "none";
-
         }
     }
 }
