@@ -1,0 +1,104 @@
+html{
+    scroll-padding-top: 35vh;
+}
+body 
+{
+    background-color: rgb(117, 232, 232);
+    align-content: center;
+    margin: 0px;
+}
+nav
+{
+    border: 1px dashed;
+    border-color:darkgoldenrod;
+   
+
+}
+.page
+{
+    height:65vh;
+    width:100vw;
+}
+#home
+{
+     
+    
+   
+    background-color: rgb(236, 236, 159);
+}
+#welcome
+{
+    height:50vh;
+    align-content: center;
+}
+#menu
+{
+    
+    background-color: rgb(187, 245, 129);
+}
+#user
+{
+     
+     background-color: rgb(144, 201, 245);
+}
+#cart
+{
+    
+     background-color: rgb(236, 186, 239);
+}
+#about_us
+{
+      
+     background-color: rgb(246, 122, 122);
+}
+#contect_us
+{
+      
+     background-color: rgb(125, 226, 194);
+}
+
+#logo
+{
+    background-color: lightcyan;
+    height: 100%;
+}
+img{
+    height:100px;
+}
+.menu
+{
+    height: 120px;
+}
+.food-item
+{
+    display:flex;
+}
+
+header *
+{
+    margin:0;
+    padding: 0;
+}
+header
+{
+position: fixed;
+top:0%;
+height:35vh;
+width:100%;
+background-color: rgb(117, 232, 232);
+}
+
+main{
+    margin-top: 35vh;
+    height:65vh;
+    weight:100%;
+    margin-bottom: 15vh;
+}
+footer
+{
+position:fixed;
+bottom:0%;
+width:100%;
+height:15vh;
+background-color: rgb(117, 232, 232);
+}
