@@ -17,8 +17,9 @@ header
     position:fixed;
     top:0;
     left:0;
-    height:15vh;
+    height:20vh;
     width:100%;
+    background-image:"image/background1.jpeg";
     background-color:rgb(117,232,232);
     z-index:1000;
 }
