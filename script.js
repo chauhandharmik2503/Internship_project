@@ -116,7 +116,8 @@ var foodItems = [
     food4,
     food5,
     food6,
-    food7
+    food7,
+    food8
 
 ];
 
