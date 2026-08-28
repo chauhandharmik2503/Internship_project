@@ -82,24 +82,24 @@ var food5 = new FoodItem(
 );
 
 var food6 = new FoodItem(
-    "tea",
+    "spicy veggi pizza",
     25,
     "drinks",
-    "tea.png"
+    "Image/Pizza/spicy veggi pizza.jpeg"
 );
 
 var food7 = new FoodItem(
-    "samosa",
+    "spinach pizza",
     37,
     "hot_and_fresh",
-    "samosa.webp"
+    "Image/Pizza/spinach pizza.jpeg"
 );
 
 var food8 = new FoodItem(
-    "samosa",
+    "tandoori paneer pizza",
     37,
     "hot_and_fresh",
-    "samosa.webp"
+    "Image/Pizza/tandoori paneer pizza.jpeg"
 );
 
 
