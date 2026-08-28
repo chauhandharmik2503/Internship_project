@@ -20,7 +20,7 @@ header
     height:20vh;
     width:100%;
     background-image:"image/background1.jpeg";
-    background-color:rgb(117,232,232);
+    /*background-color:rgb(117,232,232);*/
     z-index:1000;
 }
 
