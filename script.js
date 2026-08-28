@@ -95,6 +95,14 @@ var food7 = new FoodItem(
     "samosa.webp"
 );
 
+var food8 = new FoodItem(
+    "samosa",
+    37,
+    "hot_and_fresh",
+    "samosa.webp"
+);
+
+
 
 // ==========================================
 // FOOD ARRAY
