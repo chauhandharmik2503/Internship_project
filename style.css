@@ -24,7 +24,7 @@ header
     width:100%;
     background-image: url("Image/background 1.jpeg");
     background-size: cover;
-    background:rgba(117,232,232,0.5);
+    background:rgba(117,232,232,0);
     z-index:1000;
 }
 
