@@ -81,7 +81,7 @@ main
     width:100%;
     background-image: url("Image/background 2.jpeg");
     background-repeat:repeat;
-    background-size: cover;
+    background-size:100vw;
 }
 
 
