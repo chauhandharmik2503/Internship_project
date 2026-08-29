@@ -131,6 +131,10 @@ main
     gap:10px;
     margin:15px;
 }
+.food-item h3
+{
+    margin:0;
+}
 
 .menu
 {
