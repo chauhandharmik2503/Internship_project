@@ -5,7 +5,7 @@ html
 
 body
 {
-    background-color:rgb(117,232,232);
+  /*  background-color:rgb(117,232,232);*/
     margin:0;
 }
 h2
@@ -24,7 +24,7 @@ header
     width:100%;
     background-image: url("Image/background 1.jpeg");
     background-size: cover;
-    /*background-color:rgb(117,232,232);*/
+    background:rgba(117,232,232,0.5);
     z-index:1000;
 }
 
