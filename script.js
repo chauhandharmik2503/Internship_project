@@ -352,7 +352,7 @@ function payment()
 
     output += "<br>Total: " + total + " Rs";
 
-    document.getElementById("order-history").innerHTML = output;
+    document.getElementById("order-history").innerHTML += output;
 
     alert("Order confirmed!");
 
