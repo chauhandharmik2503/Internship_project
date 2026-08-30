@@ -3,15 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>FreshBite</title>
-
     <link rel="stylesheet" href="style.css">
-    
 </head>
-
 <body>
-
 <header>
 <div class="food-item">
     <img class="menu" src="Image/Icon/logo.jpg">
@@ -21,156 +16,86 @@
         <a href="#about_us"><img class="nav" src="Image/Icon/aboutus.png"></a>
         <a href="#contect_us"><img class="nav" src="Image/Icon/contactus.png"></a>
     </nav>
-
     <hr>
-
 </header>
-
-
 <main>
-
-    <!-- HOME -->
     <div class="page" id="home">
-
         <h2>Home</h2>
-
         <img id="welcome" src="Image/home.jpeg">
-
     </div>
-
-
-    <!-- MENU -->
     <div class="page" id="menu">
-
         <h2>Menu</h2>
-
         <div id="filter">
-
             Filter<br>
-
             <button onclick="filter('all')">All</button>
-
             <button onclick="filter('pizza')">
                 pizza
             </button>
-
             <button onclick="filter('burger')">
                 burger
             </button>
-
             <button onclick="filter('beverages')">
                 beverages
             </button>
-
         </div>
-
         <br>
-
         <hr>
-
-        <!-- JavaScript will create food items here -->
         <div id="menu-items"></div>
-
     </div>
-
-
-    <!-- CART -->
     <div class="page" id="cart">
-
         <h2>Cart</h2>
-
         <p>Order Details</p>
-
         <p id="order-detail"></p>
-
         <button onclick="payment()">
             Confirm Order
         </button>
-
     </div>
-
-
-    <!-- USER -->
     <div class="page" id="user">
-
         <h2>User</h2>
-
         <p>Order History</p>
-
         <p id="order-history"></p>
-
     </div>
-
-
-    <!-- ABOUT US -->
     <div class="page" id="about_us">
-
         <h2>About Us</h2>
-
         <h3>FreshBite</h3>
-
         <p>
             Online platform where you can find
             best taste with fresh food.
         </p>
-
     </div>
-
-
-    <!-- CONTACT US -->
     <div class="page" id="contect_us">
-
         <h2>Contact Us</h2>
-
         <a href="" > 
             <img src="Image/Icon/instagram.jpg"class="nav">
-        
             <p>@freshbite_007</p>
         </a>
-
         <a href=""> 
             <img src="Image/Icon/facebook.png"class="nav">
             <p>freshbite@47</p>
         </a> 
-
         <a href="">
             <img src="Image/Icon/maps.png"class="nav">
-            
             <p>location</p> 
         </a>
-
         <a href="">
             <img src="Image/Icon/gmail.png"class="nav">
-            
             <p>freshbite@gmail.com</p>
         </a>
-
     </div>
-
 </main>
-
-
 <hr>
-
 <footer>
-
     <nav>
         <a href="#home"><img class="nav" src="Image/Icon/home.png"></a>
         <a href="#menu"><img class="nav" src="Image/Icon/menu.png"></a>
         <a href="#cart"><img class="nav" src="Image/Icon/cart.png"></a>
-        <a href="#user"><img class="nav" src="Image/Icon/user.png"></a>
-        
+        <a href="#user"><img class="nav" src="Image/Icon/user.png"></a> 
     </nav>
     <h2>
         "Good food is the foundation of genuine happiness"
         - Auguste Escoffier
     </h2>
-
 </footer>
-
-
-<!-- JavaScript file -->
 <script src="script.js"></script>
-
 </body>
 </html>            
