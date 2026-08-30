@@ -168,24 +168,24 @@ var food17 = new FoodItem(
 );
 
 var food18 = new FoodItem(
-    "tandoori paneer pizza",
+    "kokam sharbat",
     37,
     "beverages",
-    "Image/Pizza/tandoori paneer pizza.jpeg"
+    "Image/Beverages/kokam sharbat.jpeg"
 );
 
 var food19 = new FoodItem(
-    "tandoori paneer pizza",
+    "fuljar soda",
     37,
     "beverages",
-    "Image/Pizza/tandoori paneer pizza.jpeg"
+    "Image/Beverages/fuljar soda.jpeg"
 );
 
 var food20 = new FoodItem(
-    "tandoori paneer pizza",
+    "aam panna",
     37,
     "beverages",
-    "Image/Pizza/tandoori paneer pizza.jpeg"
+    "Image/Beverages/aam panna.jpeg"
 );
 
 
