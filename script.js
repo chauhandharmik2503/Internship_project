@@ -104,84 +104,84 @@ var food8 = new FoodItem(
 
 
 var food9 = new FoodItem(
-    "tandoori paneer pizza",
+    "spicy paneer burger",
     37,
     "burger",
-    "Image/Pizza/tandoori paneer pizza.jpeg"
+    "Image/Burger/spicy paneer burger.jpeg"
 );
 
 var food10 = new FoodItem(
-    "tandoori paneer pizza",
+    "cheese veg burger",
     37,
     "burger",
-    "Image/Pizza/tandoori paneer pizza.jpeg"
+    "Image/Burger/cheese veg burger.jpeg"
 );
 
 var food11 = new FoodItem(
-    "tandoori paneer pizza",
+    "Chipotle sweet corn burger",
     37,
     "burger",
-    "Image/Pizza/tandoori paneer pizza.jpeg"
+    "Image/Burger/Chipotle sweet corn burger.jpeg"
 );
 
 var food12 = new FoodItem(
-    "tandoori paneer pizza",
+    "aloo tikki burger",
     37,
     "burger",
-    "Image/Pizza/tandoori paneer pizza.jpeg"
+    "Image/Burger/aloo tikki burger.jpeg"
 );
 
 
-var food8 = new FoodItem(
+var food13 = new FoodItem(
     "tandoori paneer pizza",
     37,
     "beverages",
     "Image/Pizza/tandoori paneer pizza.jpeg"
 );
 
-var food8 = new FoodItem(
+var food14 = new FoodItem(
     "tandoori paneer pizza",
     37,
     "beverages",
     "Image/Pizza/tandoori paneer pizza.jpeg"
 );
 
-var food8 = new FoodItem(
+var food15 = new FoodItem(
     "tandoori paneer pizza",
     37,
     "beverages",
     "Image/Pizza/tandoori paneer pizza.jpeg"
 );
 
-var food8 = new FoodItem(
+var food16 = new FoodItem(
     "tandoori paneer pizza",
     37,
     "beverages",
     "Image/Pizza/tandoori paneer pizza.jpeg"
 );
 
-var food8 = new FoodItem(
+var food17 = new FoodItem(
     "tandoori paneer pizza",
     37,
     "beverages",
     "Image/Pizza/tandoori paneer pizza.jpeg"
 );
 
-var food8 = new FoodItem(
+var food18 = new FoodItem(
     "tandoori paneer pizza",
     37,
     "beverages",
     "Image/Pizza/tandoori paneer pizza.jpeg"
 );
 
-var food8 = new FoodItem(
+var food19 = new FoodItem(
     "tandoori paneer pizza",
     37,
     "beverages",
     "Image/Pizza/tandoori paneer pizza.jpeg"
 );
 
-var food8 = new FoodItem(
+var food20 = new FoodItem(
     "tandoori paneer pizza",
     37,
     "beverages",
