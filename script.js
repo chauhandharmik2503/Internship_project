@@ -47,58 +47,58 @@ class FoodItem {
 // ==========================================
 
 var food1 = new FoodItem(
-    "pavbhaji",
+    "paneer tikka pizza",
     99,
-    "hot_and_fresh",
-    "pavbhaji.webp"
+    "pizza",
+    "Image/Pizza/paneer tikka pizza.jpeg"
 );
 
 var food2 = new FoodItem(
-    "gulab jamun",
+    "farmhouse pizza",
     47,
-    "dessert",
-    "gulab jamun.png"
+    "pizza",
+    "Image/Pizza/farmhouse pizza.jpeg"
 );
 
 var food3 = new FoodItem(
-    "coffee",
+    "mashroom pizza",
     35,
-    "drinks",
-    "coffee.png"
+    "pizza",
+    "Image/Pizza/mashroom pizza.jpeg"
 );
 
 var food4 = new FoodItem(
-    "dosa",
+    "double cheese pizza",
     49,
-    "hot_and_fresh",
-    "dosa.webp"
+    "pizza",
+    "Image/Pizza/double cheese pizza.jpeg"
 );
 
 var food5 = new FoodItem(
-    "jalebi",
+    "corn and cheese pizza",
     62,
-    "dessert",
-    "jalebi.webp"
+    "pizza",
+    "Image/Pizza/corn and cheese pizza.jpeg"
 );
 
 var food6 = new FoodItem(
     "spicy veggi pizza",
     25,
-    "drinks",
+    "pizza",
     "Image/Pizza/spicy veggi pizza.jpeg"
 );
 
 var food7 = new FoodItem(
     "spinach pizza",
     37,
-    "hot_and_fresh",
+    "pizza",
     "Image/Pizza/spinach pizza.jpeg"
 );
 
 var food8 = new FoodItem(
     "tandoori paneer pizza",
     37,
-    "hot_and_fresh",
+    "pizza",
     "Image/Pizza/tandoori paneer pizza.jpeg"
 );
 
