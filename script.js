@@ -133,38 +133,38 @@ var food12 = new FoodItem(
 
 
 var food13 = new FoodItem(
-    "tandoori paneer pizza",
+    "variyari sharbat",
     37,
     "beverages",
-    "Image/Pizza/tandoori paneer pizza.jpeg"
+    "Image/Beverages/variyari sharbat.jpeg"
 );
 
 var food14 = new FoodItem(
-    "tandoori paneer pizza",
+    "thandai",
     37,
     "beverages",
-    "Image/Pizza/tandoori paneer pizza.jpeg"
+    "Image/Beverages/thandai.jpeg"
 );
 
 var food15 = new FoodItem(
-    "tandoori paneer pizza",
+    "sugarcane juice",
     37,
     "beverages",
-    "Image/Pizza/tandoori paneer pizza.jpeg"
+    "Image/Beverages/sugarcane juice.jpeg"
 );
 
 var food16 = new FoodItem(
-    "tandoori paneer pizza",
+    "rose juice",
     37,
     "beverages",
-    "Image/Pizza/tandoori paneer pizza.jpeg"
+    "Image/Beverages/rose juice.jpeg"
 );
 
 var food17 = new FoodItem(
-    "tandoori paneer pizza",
+    "lemonade",
     37,
     "beverages",
-    "Image/Pizza/tandoori paneer pizza.jpeg"
+    "Image/Beverages/lemonade.jpeg"
 );
 
 var food18 = new FoodItem(
