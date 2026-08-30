@@ -103,6 +103,92 @@ var food8 = new FoodItem(
 );
 
 
+var food9 = new FoodItem(
+    "tandoori paneer pizza",
+    37,
+    "burger",
+    "Image/Pizza/tandoori paneer pizza.jpeg"
+);
+
+var food10 = new FoodItem(
+    "tandoori paneer pizza",
+    37,
+    "burger",
+    "Image/Pizza/tandoori paneer pizza.jpeg"
+);
+
+var food11 = new FoodItem(
+    "tandoori paneer pizza",
+    37,
+    "burger",
+    "Image/Pizza/tandoori paneer pizza.jpeg"
+);
+
+var food12 = new FoodItem(
+    "tandoori paneer pizza",
+    37,
+    "burger",
+    "Image/Pizza/tandoori paneer pizza.jpeg"
+);
+
+
+var food8 = new FoodItem(
+    "tandoori paneer pizza",
+    37,
+    "beverages",
+    "Image/Pizza/tandoori paneer pizza.jpeg"
+);
+
+var food8 = new FoodItem(
+    "tandoori paneer pizza",
+    37,
+    "beverages",
+    "Image/Pizza/tandoori paneer pizza.jpeg"
+);
+
+var food8 = new FoodItem(
+    "tandoori paneer pizza",
+    37,
+    "beverages",
+    "Image/Pizza/tandoori paneer pizza.jpeg"
+);
+
+var food8 = new FoodItem(
+    "tandoori paneer pizza",
+    37,
+    "beverages",
+    "Image/Pizza/tandoori paneer pizza.jpeg"
+);
+
+var food8 = new FoodItem(
+    "tandoori paneer pizza",
+    37,
+    "beverages",
+    "Image/Pizza/tandoori paneer pizza.jpeg"
+);
+
+var food8 = new FoodItem(
+    "tandoori paneer pizza",
+    37,
+    "beverages",
+    "Image/Pizza/tandoori paneer pizza.jpeg"
+);
+
+var food8 = new FoodItem(
+    "tandoori paneer pizza",
+    37,
+    "beverages",
+    "Image/Pizza/tandoori paneer pizza.jpeg"
+);
+
+var food8 = new FoodItem(
+    "tandoori paneer pizza",
+    37,
+    "beverages",
+    "Image/Pizza/tandoori paneer pizza.jpeg"
+);
+
+
 
 // ==========================================
 // FOOD ARRAY
@@ -117,7 +203,19 @@ var foodItems = [
     food5,
     food6,
     food7,
-    food8
+    food8,
+    food9,
+    food10,
+    food11,
+    food12,
+    food13,
+    food14,
+    food15,
+    food16,
+    food17,
+    food18,
+    food19,
+    food20,
 
 ];
 
