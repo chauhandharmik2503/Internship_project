@@ -128,21 +128,15 @@ main
 {
     display:flex;
     align-items:center;
-    gap:20px;
-
-    width:90%;
-    height:40vh;
-
-    margin:5vh auto;
-
-    box-sizing:border-box;
+    flex-wrap:wrap;
+    gap:10px;
+    margin:15px;
 }
 
 .menu
 {
-    width:35%;
-    height:35vh;
-
+    width:clamp(80px,15vw,120px);
+    height:clamp(80px,15vw,120px);
     object-fit:cover;
 }
 
