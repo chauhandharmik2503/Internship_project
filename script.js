@@ -329,10 +329,34 @@ function displaycart() {
 // PAYMENT
 // ==========================================
 
-function payment() {
+function payment()
+{
+    if (cart.length === 0)
+    {
+        alert("Cart is empty.");
+        return;
+    }
 
-    alert(
-        "Payment gateway under maintenance, order failed."
-    );
+    var output = "";
+    var total = 0;
 
+    for (var i = 0; i < cart.length; i++)
+    {
+        output +=
+            (i + 1) + ". " +
+            cart[i].name + " - " +
+            cart[i].price + " Rs<br>";
+
+        total += cart[i].price;
+    }
+
+    output += "<br>Total: " + total + " Rs";
+
+    document.getElementById("order-history").innerHTML = output;
+
+    alert("Order confirmed!");
+
+    cart = [];
+
+    displaycart();
 }
