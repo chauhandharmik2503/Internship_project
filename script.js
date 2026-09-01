@@ -205,22 +205,37 @@ function addtocart(itemname, price) {
         " Rs"
     );
 }
-function displaycart() {
+function displaycart()
+{
     var output = "";
     var total = 0;
-    for (var i = 0; i < cart.length; i++) {
+
+    for (var i = 0; i < cart.length; i++)
+    {
         output +=
             (i + 1) +
             ". " +
             cart[i].name +
             " - " +
             cart[i].price +
-            " Rs<br>";
+            " Rs " +
+            '<button onclick="deletefromcart(' + i + ')">' +
+'<img src="Image/Icon/delete.png" width="20" height="20">' +
+'</button>' +
+            "<br>";
+
         total += cart[i].price;
     }
+
     output += "<br>Total: " + total + " Rs";
-    document.getElementById("order-detail").innerHTML =
-        output;
+
+    document.getElementById("order-detail").innerHTML = output;
+}
+function deletefromcart(index)
+{
+    cart.splice(index, 1);
+
+    displaycart();
 }
 function payment()
 {
