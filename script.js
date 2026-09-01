@@ -176,7 +176,7 @@ function displayMenu() {
 displayMenu();
 function filter(category)
 {
-    var items = document.getElementsByClassName("#menu-items .food-item");
+    var items = document.getElementsByClassName("food-item");
     for (var i = 0; i < items.length; i++)
     {
         if (category === "all" ||
