@@ -19,7 +19,7 @@ class FoodItem {
                     </button>
                 </p>
             </div>
-            <br>
+            
         `;
     }
 }
