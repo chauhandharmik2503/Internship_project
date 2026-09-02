@@ -252,7 +252,7 @@ function payment()
             (i + 1) + ". " +
             cart[i].name + " - " +
             cart[i].price + " Rs<br>";
-        total += cart[i].price;
+        total += cart[i].price +"<br>";
     }
     output += "<br>Total: " + total + " Rs";
     document.getElementById("order-history").innerHTML += output;
