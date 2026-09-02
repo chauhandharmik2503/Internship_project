@@ -67,79 +67,79 @@ var food7 = new FoodItem(
 );
 var food8 = new FoodItem(
     "tandoori paneer pizza",
-    37,
+    137,
     "pizza",
     "Image/Pizza/tandoori paneer pizza.jpeg"
 );
 var food9 = new FoodItem(
     "spicy paneer burger",
-    37,
+    317,
     "burger",
     "Image/Burger/spicy paneer burger.jpeg"
 );
 var food10 = new FoodItem(
     "cheese veg burger",
-    37,
+    375,
     "burger",
     "Image/Burger/cheese veg burger.jpeg"
 );
 var food11 = new FoodItem(
     "Chipotle sweet corn burger",
-    37,
+    237,
     "burger",
     "Image/Burger/Chipotle sweet corn burger.jpeg"
 );
 var food12 = new FoodItem(
     "aloo tikki burger",
-    37,
+    327,
     "burger",
     "Image/Burger/aloo tikki burger.jpeg"
 );
 var food13 = new FoodItem(
     "variyari sharbat",
-    37,
+    372,
     "beverages",
     "Image/Beverages/variyari sharbat.jpeg"
 );
 var food14 = new FoodItem(
     "thandai",
-    37,
+    370,
     "beverages",
     "Image/Beverages/thandai.jpeg"
 );
 var food15 = new FoodItem(
     "sugarcane juice",
-    37,
+    137,
     "beverages",
     "Image/Beverages/sugarcane juice.jpeg"
 );
 var food16 = new FoodItem(
     "rose juice",
-    37,
+    317,
     "beverages",
     "Image/Beverages/rose juice.jpeg"
 );
 var food17 = new FoodItem(
     "lemonade",
-    37,
+    62,
     "beverages",
     "Image/Beverages/lemonade.jpeg"
 );
 var food18 = new FoodItem(
     "kokam sharbat",
-    37,
+    137,
     "beverages",
     "Image/Beverages/kokam sharbat.jpeg"
 );
 var food19 = new FoodItem(
     "fuljar soda",
-    37,
+    327,
     "beverages",
     "Image/Beverages/fuljar soda.jpeg"
 );
 var food20 = new FoodItem(
     "aam panna",
-    37,
+    317,
     "beverages",
     "Image/Beverages/aam panna.jpeg"
 );
